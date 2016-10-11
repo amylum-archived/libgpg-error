@@ -1,0 +1,22 @@
+name 'libgpg-error'
+org 'amylum'
+
+licenses 'COPYING.LIB'
+
+configure_flags(
+  prefix: '/usr',
+  'enable-maintainer-mode': nil
+)
+
+harden
+
+build do
+  run './autogen.sh'
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end

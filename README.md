@@ -1,6 +1,8 @@
 libgpg-error
 ==========
 
+[![Build Status](https://img.shields.io/circleci/project/amylum/libgpg-error/master.svg)](https://circleci.com/gh/amylum/libgpg-error)
+[![GitHub release](https://img.shields.io/github/release/amylum/libgpg-error.svg)](https://github.com/amylum/libgpg-error/releases)
 [![LGPL Licensed](http://img.shields.io/badge/license-LGPL-green.svg)](https://tldrlegal.com/license/gnu-lesser-general-public-license-v2.1-(lgpl-2.1))
 
 Package repo for [libgpg-error](https://www.gnupg.org/related_software/libgpg-error/index.html)
